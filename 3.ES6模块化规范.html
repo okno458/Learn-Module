@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6模块化规范</title>
+</head>
+<body>
+    <h1>ES6模块化的规范</h1>
+    <h4>1.每个文件都是一个模块</h4>
+    <h4>2.要借助Babel和browserify依次编译代码，才能放在浏览器端运行</h4>
+    <h2>基本语法：</h2>
+    <h4>1.<span style="color: red">分别暴露：</span>export 暴露内容</h4>
+    <h4>2.<span style="color: red">统一暴露：</span>export {暴露内容1 暴露内容2}</h4>
+    <h4>3.<span style="color: red">默认暴露：</span>export default 暴露内容</h4>
+    <h4>2.引入语法</h4>
+    <h4>方法1：import {xxx,yyy} from 路径</h4>
+    <h4>方法2：import xxx from 路径</h4>
+    <h4>3.使用规则</h4>
+    <h4>若使用<span style="color: red">分别暴露和统一暴露</span>的方式去暴露内容 那么就需要方法1引入</h4>
+    <h4>若使用<span style="color: red">默认暴露</span>的方式去暴露内容 那么就需要方法2引入</h4>
+</body>
+</html>
